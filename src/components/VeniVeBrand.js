@@ -4,7 +4,6 @@ import LogoApp from 'src/assets/brand/LogoApp.png'
 const VeniVeBrand = () => {
   return (
     <div className="d-flex align-items-center gap-2">
-      {/* Imagen con esquinas redondeadas tipo ícono */}
       <div
         style={{
           width: '35px',
@@ -35,7 +34,7 @@ const VeniVeBrand = () => {
         <span
           className="fst-italic d-block"
           style={{
-            fontSize: '0.65rem',
+            fontSize: '0.40rem',
             lineHeight: '1.2',
             color: 'white',
           }}

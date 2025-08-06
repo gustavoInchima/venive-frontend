@@ -1,0 +1,52 @@
+.
+├── eslint.config.mjs
+├── estructura.txt
+├── index.html
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon_1.ico
+│   ├── favicon_2.ico
+│   ├── favicon.ico
+│   └── manifest.json
+├── README.md
+├── src
+│   ├── _nav.js
+│   ├── App.js
+│   ├── assets
+│   │   ├── brand
+│   │   └── images
+│   ├── components
+│   │   ├── AppBreadcrumb.js
+│   │   ├── AppContent.js
+│   │   ├── AppFooter.js
+│   │   ├── AppHeader.js
+│   │   ├── AppSidebar.js
+│   │   ├── AppSidebarNav.js
+│   │   ├── DocsLink.js
+│   │   ├── header
+│   │   ├── index.js
+│   │   ├── ToggleSwitch.js
+│   │   └── VeniVeBrand.js
+│   ├── index.js
+│   ├── layout
+│   │   └── DefaultLayout.js
+│   ├── routes.js
+│   ├── scss
+│   │   ├── examples.scss
+│   │   ├── style.scss
+│   │   └── vendors
+│   ├── store.js
+│   └── views
+│       ├── dashboard
+│       ├── inventory
+│       ├── pages
+│       ├── productManagement
+│       ├── report
+│       ├── sales
+│       ├── settings
+│       └── widgets
+└── vite.config.mjs
+
+20 directories, 30 files
