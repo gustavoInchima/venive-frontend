@@ -7,7 +7,6 @@ import {
   CChartPolarArea,
   CChartRadar,
 } from '@coreui/react-chartjs'
-import { DocsLink } from 'src/components'
 
 const Report = () => {
   const random = () => Math.round(Math.random() * 100)
@@ -18,7 +17,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Bar Chart <DocsLink name="chart" />
+            Bar Chart
           </CCardHeader>
           <CCardBody>
             <CChartBar
@@ -40,7 +39,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Line Chart <DocsLink name="chart" />
+            Line Chart
           </CCardHeader>
           <CCardBody>
             <CChartLine
@@ -72,7 +71,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Doughnut Chart <DocsLink name="chart" />
+            Doughnut Chart
           </CCardHeader>
           <CCardBody>
             <CChartDoughnut
@@ -92,7 +91,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Pie Chart <DocsLink name="chart" />{' '}
+            Pie Chart
           </CCardHeader>
           <CCardBody>
             <CChartPie
@@ -114,7 +113,7 @@ const Report = () => {
         <CCard className="mb-4">
           <CCardHeader>
             Polar Area Chart
-            <DocsLink name="chart" />
+          
           </CCardHeader>
           <CCardBody>
             <CChartPolarArea
@@ -134,7 +133,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Radar Chart <DocsLink name="chart" />
+            Radar Chart
           </CCardHeader>
           <CCardBody>
             <CChartRadar

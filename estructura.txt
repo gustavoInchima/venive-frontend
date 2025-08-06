@@ -16,19 +16,24 @@
 │   ├── App.js
 │   ├── assets
 │   │   ├── brand
+│   │   │   └── LogoApp.png
 │   │   └── images
+│   │       ├── angular.jpg
+│   │       ├── avatars
+│   │       ├── components.webp
+│   │       ├── icons.webp
+│   │       ├── react.jpg
+│   │       └── vue.jpg
 │   ├── components
-│   │   ├── AppBreadcrumb.js
-│   │   ├── AppContent.js
-│   │   ├── AppFooter.js
-│   │   ├── AppHeader.js
-│   │   ├── AppSidebar.js
-│   │   ├── AppSidebarNav.js
-│   │   ├── DocsLink.js
-│   │   ├── header
-│   │   ├── index.js
-│   │   ├── ToggleSwitch.js
-│   │   └── VeniVeBrand.js
+│   │   ├── common
+│   │   │   └── ToggleSwitch.js
+│   │   └── layout
+│   │       ├── AppBrand.js
+│   │       ├── AppContent.js
+│   │       ├── AppFooter.js
+│   │       ├── AppSidebar.js
+│   │       ├── AppSidebarNav.js
+│   │       └── header
 │   ├── index.js
 │   ├── layout
 │   │   └── DefaultLayout.js
@@ -37,16 +42,46 @@
 │   │   ├── examples.scss
 │   │   ├── style.scss
 │   │   └── vendors
+│   │       └── simplebar.scss
 │   ├── store.js
 │   └── views
 │       ├── dashboard
+│       │   ├── Dashboard.js
+│       │   └── MainChart.js
 │       ├── inventory
+│       │   ├── history
+│       │   ├── index.js
+│       │   ├── stockIn
+│       │   ├── stockOut
+│       │   └── warehouse
 │       ├── pages
+│       │   ├── login
+│       │   ├── page404
+│       │   ├── page500
+│       │   └── register
 │       ├── productManagement
+│       │   ├── category
+│       │   ├── index.js
+│       │   ├── product
+│       │   └── supplier
 │       ├── report
+│       │   └── Report.js
 │       ├── sales
+│       │   ├── customer
+│       │   ├── index.js
+│       │   ├── invoice
+│       │   └── order
 │       ├── settings
+│       │   ├── companyInfo
+│       │   ├── index.js
+│       │   ├── notifications
+│       │   ├── password
+│       │   ├── security
+│       │   └── user
 │       └── widgets
+│           ├── Widgets.js
+│           ├── WidgetsBrand.js
+│           └── WidgetsDropdown.js
 └── vite.config.mjs
 
-20 directories, 30 files
+42 directories, 43 files

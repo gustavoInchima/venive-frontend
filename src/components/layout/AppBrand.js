@@ -1,7 +1,7 @@
 import { CImage } from '@coreui/react'
 import LogoApp from 'src/assets/brand/LogoApp.png'
 
-const VeniVeBrand = () => {
+const AppBrand = () => {
   return (
     <div className="d-flex align-items-center gap-2">
       <div
@@ -46,4 +46,4 @@ const VeniVeBrand = () => {
   )
 }
 
-export default VeniVeBrand
+export default AppBrand

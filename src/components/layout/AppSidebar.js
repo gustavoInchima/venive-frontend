@@ -9,13 +9,12 @@ import {
   CSidebarHeader,
   CSidebarToggler,
 } from '@coreui/react'
-import CIcon from '@coreui/icons-react'
 
 import { AppSidebarNav } from './AppSidebarNav'
 
 // sidebar nav config
-import navigation from '../_nav'
-import VeniVeBrand from './VeniVeBrand'
+import navigation from '../../config/navigation'
+import AppBrand from './AppBrand'
 
 const AppSidebar = () => {
   const dispatch = useDispatch()
@@ -35,7 +34,7 @@ const AppSidebar = () => {
     >
       <CSidebarHeader className="border-bottom">
         <CSidebarBrand to="/" style={{ textDecoration: 'none' }}>
-          <VeniVeBrand />
+          <AppBrand />
         </CSidebarBrand>
 
         <CCloseButton
