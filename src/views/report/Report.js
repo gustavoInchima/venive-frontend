@@ -17,15 +17,15 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Bar Chart
+            Gráfico de Barras
           </CCardHeader>
           <CCardBody>
             <CChartBar
               data={{
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'],
                 datasets: [
                   {
-                    label: 'GitHub Commits',
+                    label: 'Ventas',
                     backgroundColor: '#f87979',
                     data: [40, 20, 12, 39, 10, 40, 39, 80, 40],
                   },
@@ -39,15 +39,15 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Line Chart
+            Gráfico de Líneas
           </CCardHeader>
           <CCardBody>
             <CChartLine
               data={{
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'],
                 datasets: [
                   {
-                    label: 'My First dataset',
+                    label: 'Datos',
                     backgroundColor: 'rgba(220, 220, 220, 0.2)',
                     borderColor: 'rgba(220, 220, 220, 1)',
                     pointBackgroundColor: 'rgba(220, 220, 220, 1)',
@@ -55,7 +55,7 @@ const Report = () => {
                     data: [random(), random(), random(), random(), random(), random(), random()],
                   },
                   {
-                    label: 'My Second dataset',
+                    label: 'Datos 2',
                     backgroundColor: 'rgba(151, 187, 205, 0.2)',
                     borderColor: 'rgba(151, 187, 205, 1)',
                     pointBackgroundColor: 'rgba(151, 187, 205, 1)',
@@ -71,7 +71,7 @@ const Report = () => {
       <CCol xs={6}>
         <CCard className="mb-4">
           <CCardHeader>
-            Doughnut Chart
+            Gráfico de Donut
           </CCardHeader>
           <CCardBody>
             <CChartDoughnut
@@ -96,7 +96,7 @@ const Report = () => {
           <CCardBody>
             <CChartPie
               data={{
-                labels: ['Red', 'Green', 'Yellow'],
+                labels: ['Rojo', 'Verde', 'Amarillo'],
                 datasets: [
                   {
                     data: [300, 50, 100],
@@ -118,7 +118,7 @@ const Report = () => {
           <CCardBody>
             <CChartPolarArea
               data={{
-                labels: ['Red', 'Green', 'Yellow', 'Grey', 'Blue'],
+                labels: ['Rojo', 'Verde', 'Amarillo', 'Azul'],
                 datasets: [
                   {
                     data: [11, 16, 7, 3, 14],
@@ -138,18 +138,10 @@ const Report = () => {
           <CCardBody>
             <CChartRadar
               data={{
-                labels: [
-                  'Eating',
-                  'Drinking',
-                  'Sleeping',
-                  'Designing',
-                  'Coding',
-                  'Cycling',
-                  'Running',
-                ],
+                labels: ['Comer', 'Beber', 'Dormir', 'Diseñar', 'Programar', 'Andar en bici', 'Correr'],
                 datasets: [
                   {
-                    label: 'My First dataset',
+                    label: 'Datos',
                     backgroundColor: 'rgba(220, 220, 220, 0.2)',
                     borderColor: 'rgba(220, 220, 220, 1)',
                     pointBackgroundColor: 'rgba(220, 220, 220, 1)',
@@ -159,7 +151,7 @@ const Report = () => {
                     data: [65, 59, 90, 81, 56, 55, 40],
                   },
                   {
-                    label: 'My Second dataset',
+                    label: 'Datos 2',
                     backgroundColor: 'rgba(151, 187, 205, 0.2)',
                     borderColor: 'rgba(151, 187, 205, 1)',
                     pointBackgroundColor: 'rgba(151, 187, 205, 1)',
