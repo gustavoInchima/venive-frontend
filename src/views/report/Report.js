@@ -16,9 +16,7 @@ const Report = () => {
       <CCol xs={12}></CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Gráfico de Barras
-          </CCardHeader>
+          <CCardHeader>Gráfico de Barras</CCardHeader>
           <CCardBody>
             <CChartBar
               data={{
@@ -38,9 +36,7 @@ const Report = () => {
       </CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Gráfico de Líneas
-          </CCardHeader>
+          <CCardHeader>Gráfico de Líneas</CCardHeader>
           <CCardBody>
             <CChartLine
               data={{
@@ -70,9 +66,7 @@ const Report = () => {
       </CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Gráfico de Donut
-          </CCardHeader>
+          <CCardHeader>Gráfico de Donut</CCardHeader>
           <CCardBody>
             <CChartDoughnut
               data={{
@@ -90,9 +84,7 @@ const Report = () => {
       </CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Pie Chart
-          </CCardHeader>
+          <CCardHeader>Pie Chart</CCardHeader>
           <CCardBody>
             <CChartPie
               data={{
@@ -111,10 +103,7 @@ const Report = () => {
       </CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Polar Area Chart
-          
-          </CCardHeader>
+          <CCardHeader>Polar Area Chart</CCardHeader>
           <CCardBody>
             <CChartPolarArea
               data={{
@@ -132,13 +121,19 @@ const Report = () => {
       </CCol>
       <CCol xs={6}>
         <CCard className="mb-4">
-          <CCardHeader>
-            Radar Chart
-          </CCardHeader>
+          <CCardHeader>Radar Chart</CCardHeader>
           <CCardBody>
             <CChartRadar
               data={{
-                labels: ['Comer', 'Beber', 'Dormir', 'Diseñar', 'Programar', 'Andar en bici', 'Correr'],
+                labels: [
+                  'Comer',
+                  'Beber',
+                  'Dormir',
+                  'Diseñar',
+                  'Programar',
+                  'Andar en bici',
+                  'Correr',
+                ],
                 datasets: [
                   {
                     label: 'Datos',

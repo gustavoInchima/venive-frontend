@@ -98,12 +98,7 @@ const CreateUserForm = ({ onSubmit, onCancel }) => {
               Role
             </CFormLabel>
             <CCol sm={10}>
-              <CFormSelect
-                id="role"
-                name="role"
-                value={form.role}
-                onChange={handleChange}
-              >
+              <CFormSelect id="role" name="role" value={form.role} onChange={handleChange}>
                 <option value="User">User</option>
                 <option value="Admin">Admin</option>
                 {/* Puedes agregar más roles aquí */}

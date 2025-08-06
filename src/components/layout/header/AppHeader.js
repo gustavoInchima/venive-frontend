@@ -25,7 +25,7 @@ import {
 } from '@coreui/icons'
 
 import AppBreadcrumb from './AppBreadcrumb'
-import AppHeaderDropdown  from './AppHeaderDropdown'
+import AppHeaderDropdown from './AppHeaderDropdown'
 
 const AppHeader = () => {
   const headerRef = useRef()
