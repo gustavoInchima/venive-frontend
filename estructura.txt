@@ -12,18 +12,13 @@
 │   └── manifest.json
 ├── README.md
 ├── src
-│   ├── _nav.js
 │   ├── App.js
 │   ├── assets
 │   │   ├── brand
 │   │   │   └── LogoApp.png
 │   │   └── images
-│   │       ├── angular.jpg
 │   │       ├── avatars
-│   │       ├── components.webp
-│   │       ├── icons.webp
-│   │       ├── react.jpg
-│   │       └── vue.jpg
+│   │       └── react.jpg
 │   ├── components
 │   │   ├── common
 │   │   │   └── ToggleSwitch.js
@@ -34,12 +29,14 @@
 │   │       ├── AppSidebar.js
 │   │       ├── AppSidebarNav.js
 │   │       └── header
+│   ├── config
+│   │   ├── navigation.js
+│   │   └── new.js
 │   ├── index.js
 │   ├── layout
 │   │   └── DefaultLayout.js
 │   ├── routes.js
 │   ├── scss
-│   │   ├── examples.scss
 │   │   ├── style.scss
 │   │   └── vendors
 │   │       └── simplebar.scss
@@ -84,4 +81,4 @@
 │           └── WidgetsDropdown.js
 └── vite.config.mjs
 
-42 directories, 43 files
+43 directories, 39 files
