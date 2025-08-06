@@ -53,28 +53,27 @@ $ yarn build
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-venive-frontend
-├── public/          # static files
-│   ├── favicon.ico
-│   └── manifest.json
+venive-frontend/
+├── public/                # Static public assets
+│   ├── favicon.ico        # App favicon
+│   └── manifest.json      # PWA manifest
 │
-├── src/             # project root
-│   ├── assets/      # images, icons, etc.
-│   ├── components/  # common components - header, footer, sidebar, etc.
-│   ├── layouts/     # layout containers
-│   ├── scss/        # scss styles
-│   ├── views/       # application views
-│   ├── _nav.js      # sidebar navigation config
-│   ├── App.js
-│   ├── index.js
-│   ├── routes.js    # routes config
-│   └── store.js     # template state example 
+├── src/                   # Application source code
+│   ├── App.js             # Main app wrapper
+│   ├── assets/            # Static resources like images and logos
+│   ├── components/        # Reusable UI components (buttons, sidebar, etc.)
+│   ├── config/            # Configuration files (e.g. navigation, constants)
+│   ├── index.js           # App entry point
+│   ├── layout/            # Layout containers (default layout, wrappers)
+│   ├── routes.js          # Route definitions
+│   ├── scss/              # Global styles and SCSS partials
+│   ├── store.js           # Application state (Redux, Zustand, etc.)
+│   └── views/             # Main application pages and modules
 │
-├── index.html       # html template
-├── ...
-├── package.json
-├── ...
-└── vite.config.mjs  # vite config
+├── README.md              # Project overview and instructions
+├── vite.config.mjs        # Vite configuration
+├── package.json           # Project dependencies and scripts
+└── ...                    # Other config and meta files
 ```
 
 ## Notice

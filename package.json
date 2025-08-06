@@ -1,7 +1,7 @@
 {
   "name": "veni-ve-app",
   "version": "0.0.0",
-  "description": "Inventory management system, based on CoreUI Free React Admin Template.",
+  "description": "Inventory management system",
   "license": "MIT",
   "author": "SENA Development Team",
   "scripts": {
