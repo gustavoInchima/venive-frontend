@@ -9,7 +9,7 @@ import {
   CButton,
 } from '@coreui/react'
 
-import ToggleSwitch from '../../../components/ToggleSwitch'
+import ToggleSwitch from '../../../components/common/ToggleSwitch'
 
 const CreateRole = () => {
   return (
