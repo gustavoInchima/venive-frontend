@@ -4,6 +4,24 @@ Frontend de la tienda e inventario **VeniVé**, desarrollado con React. Esta apl
 
 ---
 
+## Prerequisites
+
+Before running this project locally, make sure you have the following installed:
+
+### System Requirements
+
+- **Node.js** v18 or higher (recommended: LTS version)
+- **npm** v9 or higher (comes with Node.js)
+- **Git** – for cloning and version control
+
+You can check your installed versions with:
+
+```bash
+$ node -v
+$ npm -v
+$ git --version
+```
+
 ### Installation
 
 ``` bash
@@ -50,7 +68,7 @@ $ yarn build
 
 ## What's included
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+Below is the basic structure of the project:
 
 ```
 venive-frontend/
@@ -78,8 +96,5 @@ venive-frontend/
 
 ## Notice
 
-This project is based on the CoreUI Free React Admin Template licensed under the MIT License.
-
-All original CoreUI code and assets remain under their respective license. This project includes modifications and customizations specific to the VENÍVÉ storefront application.
-
-Please refer to the LICENSE file in this repository for full licensing details.
+Based on CoreUI Free React Admin Template (MIT).
+See LICENSE for details.
