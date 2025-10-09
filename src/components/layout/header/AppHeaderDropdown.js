@@ -10,10 +10,10 @@ import {
   CDropdownToggle,
 } from '@coreui/react'
 import {
+  cilAccountLogout,
   cilBell,
   cilCommentSquare,
   cilEnvelopeOpen,
-  cilLockLocked,
   cilSettings,
   cilTask,
   cilUser,
@@ -77,7 +77,7 @@ const AppHeaderDropdown = () => {
         </CDropdownItem>
         <CDropdownDivider />
         <CDropdownItem onClick={handleLogout} style={{ cursor: 'pointer' }}>
-          <CIcon icon={cilLockLocked} className="me-2" />
+          <CIcon icon={cilAccountLogout} className="me-2" />
           Cerrar sesión
         </CDropdownItem>
       </CDropdownMenu>
