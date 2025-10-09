@@ -11,9 +11,7 @@ import {
 } from '@coreui/react'
 
 import { AppSidebarNav } from './AppSidebarNav'
-
-// sidebar nav config
-import navigation from '../../config/navigation'
+import sidebarNavConfig from '../../config/sidebarNavConfig'
 import AppBrand from './AppBrand'
 
 const AppSidebar = () => {
@@ -43,7 +41,7 @@ const AppSidebar = () => {
           onClick={() => dispatch({ type: 'set', sidebarShow: false })}
         />
       </CSidebarHeader>
-      <AppSidebarNav items={navigation} />
+      <AppSidebarNav items={sidebarNavConfig} />
       <CSidebarFooter className="border-top d-none d-lg-flex">
         <CSidebarToggler
           onClick={() => dispatch({ type: 'set', sidebarUnfoldable: !unfoldable })}

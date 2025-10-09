@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import {
   CAvatar,
   CBadge,
@@ -10,10 +11,8 @@ import {
 } from '@coreui/react'
 import {
   cilBell,
-  cilCreditCard,
   cilCommentSquare,
   cilEnvelopeOpen,
-  cilFile,
   cilLockLocked,
   cilSettings,
   cilTask,
@@ -24,6 +23,12 @@ import CIcon from '@coreui/icons-react'
 import avatar8 from './../../../assets/images/avatars/8.jpg'
 
 const AppHeaderDropdown = () => {
+  const navigate = useNavigate()
+
+  const handleLogout = () => {
+    // Navigate to login without any extra logic
+    navigate('/login')
+  }
   return (
     <CDropdown variant="nav-item">
       <CDropdownToggle placement="bottom-end" className="py-0 pe-0" caret={false}>
@@ -59,7 +64,9 @@ const AppHeaderDropdown = () => {
             42
           </CBadge>
         </CDropdownItem>
-        <CDropdownHeader className="bg-body-secondary fw-semibold my-2">Configuración</CDropdownHeader>
+        <CDropdownHeader className="bg-body-secondary fw-semibold my-2">
+          Configuración
+        </CDropdownHeader>
         <CDropdownItem href="#">
           <CIcon icon={cilUser} className="me-2" />
           Perfil
@@ -68,24 +75,10 @@ const AppHeaderDropdown = () => {
           <CIcon icon={cilSettings} className="me-2" />
           Ajustes
         </CDropdownItem>
-        <CDropdownItem href="#">
-          <CIcon icon={cilCreditCard} className="me-2" />
-          Pagos
-          <CBadge color="secondary" className="ms-2">
-            42
-          </CBadge>
-        </CDropdownItem>
-        <CDropdownItem href="#">
-          <CIcon icon={cilFile} className="me-2" />
-          Proyectos
-          <CBadge color="primary" className="ms-2">
-            42
-          </CBadge>
-        </CDropdownItem>
         <CDropdownDivider />
-        <CDropdownItem href="#">
+        <CDropdownItem onClick={handleLogout} style={{ cursor: 'pointer' }}>
           <CIcon icon={cilLockLocked} className="me-2" />
-          Bloquear cuenta
+          Cerrar sesión
         </CDropdownItem>
       </CDropdownMenu>
     </CDropdown>

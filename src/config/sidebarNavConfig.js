@@ -10,7 +10,7 @@ import {
 import { cilSpeedometer } from '@coreui/icons'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
 
-const _nav = [
+const sidebarNavigation = [
   {
     component: CNavItem,
     name: 'Dashboard',
@@ -134,4 +134,4 @@ const _nav = [
   },
 ]
 
-export default _nav
+export default sidebarNavigation
